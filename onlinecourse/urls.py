@@ -21,4 +21,7 @@ urlpatterns = [
 
     # <HINT> Create a route for show_exam_result view
 
+    # Sample page route
+    path('sample/', views.sample_page, name='sample'),
+
  ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
